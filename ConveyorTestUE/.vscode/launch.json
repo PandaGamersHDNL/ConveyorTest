@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "ConveyorTestUE (Debug)",
+			"request": "launch",
+			"preLaunchTask": "ConveyorTestUE Win64 Debug Build",
+			"program": "C:\\Users\\panda\\Documents\\ConveyorTest\\ConveyorTestUE\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "D:\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ConveyorTestUE (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "ConveyorTestUE Win64 DebugGame Build",
+			"program": "C:\\Users\\panda\\Documents\\ConveyorTest\\ConveyorTestUE\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "D:\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ConveyorTestUE (Development)",
+			"request": "launch",
+			"preLaunchTask": "ConveyorTestUE Win64 Development Build",
+			"program": "C:\\Users\\panda\\Documents\\ConveyorTest\\ConveyorTestUE\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "D:\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ConveyorTestUE (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "ConveyorTestUE Win64 Shipping Build",
+			"program": "C:\\Users\\panda\\Documents\\ConveyorTest\\ConveyorTestUE\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "D:\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ConveyorTestUE (Test)",
+			"request": "launch",
+			"preLaunchTask": "ConveyorTestUE Win64 Test Build",
+			"program": "C:\\Users\\panda\\Documents\\ConveyorTest\\ConveyorTestUE\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "D:\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ConveyorTestUEEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "ConveyorTestUEEditor Win64 Debug Build",
+			"program": "D:\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"C:\\Users\\panda\\Documents\\ConveyorTest\\ConveyorTestUE\\ConveyorTestUE.uproject"
+			],
+			"cwd": "D:\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ConveyorTestUEEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "ConveyorTestUEEditor Win64 DebugGame Build",
+			"program": "D:\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"C:\\Users\\panda\\Documents\\ConveyorTest\\ConveyorTestUE\\ConveyorTestUE.uproject"
+			],
+			"cwd": "D:\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ConveyorTestUEEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "ConveyorTestUEEditor Win64 Development Build",
+			"program": "D:\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"C:\\Users\\panda\\Documents\\ConveyorTest\\ConveyorTestUE\\ConveyorTestUE.uproject"
+			],
+			"cwd": "D:\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "D:\\UE_4.26\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"C:\\Users\\panda\\Documents\\ConveyorTest\\ConveyorTestUE\\ConveyorTestUE.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "D:\\UE_4.26"
+		}
+	]
+}

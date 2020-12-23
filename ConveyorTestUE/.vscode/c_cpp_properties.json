@@ -1,0 +1,9 @@
+{
+	"configurations": [
+		{
+			"name": "ConveyorTestUEEditor Editor Win64 Development (ConveyorTestUE)",
+			"intelliSenseMode": "msvc-x64",
+			"compileCommands": "C:\\Users\\panda\\Documents\\ConveyorTest\\ConveyorTestUE\\.vscode\\compileCommands_ConveyorTestUE.json"
+		}
+	]
+}
